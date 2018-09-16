@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SearchButton from './components/searchButton';
+import GiphySearch from './components/GiphySearch/';
 import './App.css';
 
 class App extends Component {
@@ -9,10 +9,7 @@ class App extends Component {
         <header className="App-header">
           <h1 className="App-title">GraphQL Hello World</h1>
         </header>
-        <p className="App-intro">
-          More to come...
-        </p>
-        <SearchButton />
+        <GiphySearch />
       </div>
     );
   }
